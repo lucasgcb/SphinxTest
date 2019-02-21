@@ -8,11 +8,11 @@ class Foo:
             >>> from test import Foo
             >>> x = Foo(6)
             >>> x.bar()
-            >>> bar
-            >>> bar
-            >>> bar
-            >>> bar
-            >>> bar
+            >>> foobar
+            >>> foobar
+            >>> foobar
+            >>> foobar
+            >>> foobar
     Attributes:
         power (int): Amount of bar energy contained in this Foo instance.
     """
