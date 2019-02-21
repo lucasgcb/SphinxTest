@@ -1,3 +1,5 @@
+from errors import _ERR_LOWBAR
+
 class Foo:
     """
     This is the Foo class.
@@ -25,10 +27,10 @@ class Foo:
             AssertError: if barPower is less than 6.
             
         """
-        assert barPower>5, "bar is too weak"
+        assert barPower>5, _ERR_LOWBAR
         self.power = barPower
     
     def bar(self):
         """Generate foobars based on bar energy."""
         for x in range(0,self.power):
-            print('foobar')
+            print('foobar' + str(x))
