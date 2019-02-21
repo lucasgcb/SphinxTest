@@ -1,4 +1,4 @@
-from errors import _ERR_LOWBAR
+from _errors import _ERR_LOWBAR
 
 class Foo:
     """

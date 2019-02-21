@@ -1,4 +1,4 @@
-from errors import _ERR_NOTLIST, _ERR_NOT3D
+from _errors import _ERR_NOTLIST, _ERR_NOT3D
 
 class Waldo:
     """This is the Waldo Docstring"""

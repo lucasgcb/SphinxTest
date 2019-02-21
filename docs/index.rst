@@ -7,9 +7,11 @@ Welcome to SphinxTest's documentation!
 ======================================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 20
    :caption: Contents:
    modules
+   alpha
+   beta
 
 
 Indices and tables
