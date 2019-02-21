@@ -1,7 +1,13 @@
 from _errors import _ERR_NOTLIST, _ERR_NOT3D
 
 class Waldo:
-    """This is the Waldo Docstring"""
+    """This is the Waldo Docstring
+
+        Example:
+            >>> Waldo([2,3,5])
+            >>> Waldo.whereIsHe()
+            >>> [2,3,5]
+    """
 
     def __init__(self, pos):
         """This is the Waldo init 
