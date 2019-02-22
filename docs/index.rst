@@ -18,8 +18,10 @@ Welcome to SphinxTest's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-   alpha
-   beta
+   SphinxTest
+   SphinxTest.alpha
+   SphinxTest.beta
+   
 
 Indices and tables
 ==================
