@@ -9,8 +9,8 @@ Welcome to SphinxTest's documentation!
 .. toctree::
    :maxdepth: 2
    :caption: Quick start:
-   
-   static/introduction
+
+   _static/introduction
 
 .. toctree::
    :maxdepth: 2
