@@ -40,6 +40,7 @@ Using markdown
 
 *Basically,*
 
-**reStructured text is awful to write but is more stable and standard for documentation**
+**reStructured text is awful to write but is more
+stable and standard for documentation**
 
 

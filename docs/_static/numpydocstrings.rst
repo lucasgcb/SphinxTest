@@ -5,7 +5,7 @@ Back in the day, docstrings used used to be just plain
 reStructuredText inside of docstrings.
 
 * It was very gross.
-* Even for Google.
+* For everyone.
 
 Solution
 --------
@@ -16,7 +16,7 @@ and Sphinx recognizes.
 * Sphinx needs an addon called "Napoleon" to interpret it.
 * It is not a problem. This is defined in the doc's conf.py.
 
-`Google docstrings Example <https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html>`_
+`Numpy docstrings Example <https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_numpy.html>`_
 
 conf.py:
 
@@ -33,6 +33,8 @@ conf.py:
        'sphinx.ext.githubpages',
        'sphinx.ext.napoleon', # <- Here is Napoleon
    ]
+
+See also: `Google docstrings Example <https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html>`_
 
 The code in :py:mod:`alpha` and :py:mod:`beta` utilize this Docstring format
 and are automatically generated.
