@@ -10,8 +10,8 @@ Welcome to SphinxTest's documentation!
    :maxdepth: 2
    :caption: Quick start:
 
-   _static/aboutindex
    _static/introduction
+   _static/aboutindex
    _static/numpydocstrings
 
 .. toctree::
