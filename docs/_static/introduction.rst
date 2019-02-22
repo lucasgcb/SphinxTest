@@ -9,7 +9,7 @@ It is a bit different than markdown.
 * it is quite annoying to get used to
 
 Some math:
-==========
+----------
 
 .. centered::
    :math: `\frac{ \sum_{t=0}^{N}f(t,k) }{N}`
@@ -18,7 +18,7 @@ That was some math. I bet it looks cool.
 Every tool I have for previewing this sucks.
 
 Using markdown
-==============
+--------------
 
 `Markdown may be used at the cost of some advanced functionalities <https://docs.readthedocs.io/en/latest/intro/getting-started-with-sphinx.html>`_
 
