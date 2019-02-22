@@ -1,1 +1,1 @@
-from beta import Waldo
+from SphinxTest.beta.beta import Waldo

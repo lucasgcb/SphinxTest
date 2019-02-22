@@ -26,11 +26,12 @@ class Foo:
     >>> from test import Foo
     >>> x = Foo(6)
     >>> x.bar()
-    >>> foobar
-    >>> foobar
-    >>> foobar
-    >>> foobar
-    >>> foobar
+    >>> foobar0
+    >>> foobar1
+    >>> foobar2
+    >>> foobar3
+    >>> foobar4
+    >>> foobar5
             
     """
     def __init__(self, barPower):
