@@ -21,7 +21,7 @@ Welcome to SphinxTest's documentation!
    SphinxTest
    SphinxTest.alpha
    SphinxTest.beta
-   
+   modules
 
 Indices and tables
 ==================
