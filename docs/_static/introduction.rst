@@ -6,12 +6,13 @@ It is a bit different than markdown.
 
 * This is some wild stuff right here.
 * directives use ":"
-* it is quite hard to write
+* it is quite annoying to get used to
 
 Some math:
 ==========
 
-:math:`\frac{ \sum_{t=0}^{N}f(t,k) }{N}`
+.. math::`\frac{ \sum_{t=0}^{N}f(t,k) }{N}`
+   :align: center
 
 That was some math. I bet it looks cool.
 Every tool I have for previewing this sucks.
