@@ -17,6 +17,7 @@ and Sphinx recognizes.
 * It is not a problem. This is defined in the doc's conf.py.
 
 conf.py:
+
 .. code-block:: python
 
    extensions = [
