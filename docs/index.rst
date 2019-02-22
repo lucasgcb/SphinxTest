@@ -10,15 +10,16 @@ Welcome to SphinxTest's documentation!
    :maxdepth: 2
    :caption: Quick start:
 
+   _static/aboutindex
    _static/introduction
-   _static/googledocstrings
+   _static/numpydocstrings
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
    alpha
-   beta
+   beta/beta
 
 Indices and tables
 ==================
