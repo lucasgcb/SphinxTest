@@ -1,1 +1,0 @@
-from SphinxTest.alpha.alpha import Foo
