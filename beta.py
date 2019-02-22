@@ -10,7 +10,7 @@ class Waldo:
     """
 
     def __init__(self, pos):
-        """This is the Waldo init 
+        """Init Waldo.
         
         Args:
             pos (Tuple(int,int,int)): Initialize Waldo in this position 
