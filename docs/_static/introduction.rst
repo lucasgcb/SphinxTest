@@ -20,7 +20,7 @@ Every tool I have for previewing this sucks.
 Using markdown
 ==============
 
-*`Markdown may be used at the cost of some advanced functionalities. <https://docs.readthedocs.io/en/latest/intro/getting-started-with-sphinx.html>_*
+`Markdown may be used at the cost of some advanced functionalities. <https://docs.readthedocs.io/en/latest/intro/getting-started-with-sphinx.html>_
 
 
 
