@@ -24,9 +24,10 @@ class Waldo:
 
     def whereIsHe(self):
         """Show Waldo's Position
+        
         Returns
         -------
-        list
+        list:
             3 dimension coordinate of Waldo's position
             
         Example

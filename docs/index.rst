@@ -16,7 +16,7 @@ Welcome to SphinxTest's documentation!
 
 .. toctree::
    :maxdepth: 2
-   :caption: xablauvis:
+   :caption: Module:
 
    alpha
    beta
