@@ -1,5 +1,5 @@
 Docstring Format
-----------------
+================
 
 Back in the day, docstrings used used to be just plain
 reStructuredText inside of docstrings.
