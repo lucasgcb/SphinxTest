@@ -11,11 +11,9 @@ It is a bit different than markdown.
 Some math:
 ----------
 
-.. centered::
+.. math::
 
-   .. math::
-
-      `\frac{ \sum_{t=0}^{N}f(t,k) }{N}`
+   `\frac{ \sum_{t=0}^{N}f(t,k) }{N}`
 
 That was some math. I bet it looks cool.
 Every tool I have for previewing this sucks.
