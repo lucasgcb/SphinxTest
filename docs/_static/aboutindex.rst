@@ -18,7 +18,7 @@ table of contents (TOC) for displaying next to the page.
 |    ├── make.bat
 |    └── Makefile
 
-`index.rst <https://github.com/lucasgcb/SphinxTest/blob/test/docs/index.rst>_
+`index.rst <https://github.com/lucasgcb/SphinxTest/blob/test/docs/index.rst>`_
 
 
 While not mandatory, this helps with navigation quite a bit.
