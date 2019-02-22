@@ -22,7 +22,7 @@ sys.path.insert(0, os.path.abspath('./..'))
 
 import sphinx.apidoc
 def setup(app):
-    sphinx.apidoc.main(['-F ,-f', '-T', '-e', '-o', './', './..'])
+    sphinx.apidoc.main(['-F ,-f', '-T', '-e', '-o', '--implicit-namespaces', './', './..'])
  
 # -- Project information -----------------------------------------------------
 
@@ -31,7 +31,7 @@ copyright = '2019, Lucas GC Bandeira'
 author = 'Lucas GC Bandeira'
 
 # The short X.Y version
-version = '1;-'
+version = '1'
 # The full version, including alpha/beta/rc tags
 release = 'numpy'
 

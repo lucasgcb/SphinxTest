@@ -5,7 +5,7 @@ Back in the day, docstrings used used to be just plain
 reStructuredText inside of docstrings.
 
 * It was very gross.
-* Even for Google.
+* For everyone.
 
 Solution
 --------
