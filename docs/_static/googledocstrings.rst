@@ -31,7 +31,7 @@ conf.py:
        'sphinx.ext.ifconfig',
        'sphinx.ext.viewcode',
        'sphinx.ext.githubpages',
-       'sphinx.ext.napoleon', <--- Here
+       'sphinx.ext.napoleon', # <- Here is Napoleon
    ]
 
 The code in :py:mod:`alpha` and :py:mod:`beta` utilize this Docstring format
