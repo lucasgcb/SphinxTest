@@ -4,6 +4,21 @@ About index.rst file
 This file is located within the `docs` root and creates the
 table of contents (TOC) for displaying next to the page.
 
+::
+    .
+    ├── _build
+    │   └── html
+    ├── _static
+    │   ├── aboutindex.rst
+    │   ├── introduction.rst
+    │   └── numpydocstrings.rst
+    ├── _templates
+    ├── conf.py
+    ├── index.rst <--- the index file
+    ├── make.bat
+    └── Makefile
+
+
 While not mandatory, this helps with navigation quite a bit.
 
 Unfortunately, the index.rst is much more difficult to

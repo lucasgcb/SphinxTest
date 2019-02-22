@@ -19,7 +19,7 @@ Welcome to SphinxTest's documentation!
    :caption: Contents:
 
    alpha
-   beta/beta
+   beta
 
 Indices and tables
 ==================
