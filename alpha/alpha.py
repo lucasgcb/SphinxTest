@@ -1,4 +1,4 @@
-from _errors import _ERR_LOWBAR
+from SphinxTest._errors import _ERR_LOWBAR
 
 class Foo:
     """This is the Foo class.
