@@ -18,7 +18,7 @@
 
 import os
 import sys
-sys.path.insert(0, os.path.abspath('..'))
+sys.path.insert(0, os.path.abspath('./..'))
 
 import sphinx.apidoc
 def setup(app):
@@ -31,9 +31,9 @@ copyright = '2019, Lucas GC Bandeira'
 author = 'Lucas GC Bandeira'
 
 # The short X.Y version
-version = ''
+version = '1;-'
 # The full version, including alpha/beta/rc tags
-release = ''
+release = 'numpy'
 
 
 # -- General configuration ---------------------------------------------------
