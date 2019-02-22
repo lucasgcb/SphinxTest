@@ -22,7 +22,7 @@ sys.path.insert(0, os.path.abspath('..'))
 
 import sphinx.apidoc
 def setup(app):
-    sphinx.apidoc.main(['-F, -f', '-T', '-e', '--implicit-namespaces', '-o', './', './..'])
+    sphinx.apidoc.main(['-F, -f', '-T', '-e', '-o', './', './..'])
  
 # -- Project information -----------------------------------------------------
 
