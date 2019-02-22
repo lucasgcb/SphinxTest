@@ -16,6 +16,8 @@ and Sphinx recognizes.
 * Sphinx needs an addon called "Napoleon" to interpret it.
 * It is not a problem. This is defined in the doc's conf.py.
 
+`Google docstrings Example <https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html>`_
+
 conf.py:
 
 .. code-block:: python
@@ -29,10 +31,8 @@ conf.py:
        'sphinx.ext.ifconfig',
        'sphinx.ext.viewcode',
        'sphinx.ext.githubpages',
-       'sphinx.ext.napoleon',
+       'sphinx.ext.napoleon', <--- Here
    ]
-
-`Google docstrings Example <https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html>`_
 
 The code in :py:mod:`alpha` and :py:mod:`beta` utilize this Docstring format
 and are automatically generated.
