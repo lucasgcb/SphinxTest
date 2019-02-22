@@ -11,6 +11,7 @@ Welcome to SphinxTest's documentation!
    :caption: Quick start:
 
    _static/introduction
+   _static/googledocstrings
 
 .. toctree::
    :maxdepth: 2
