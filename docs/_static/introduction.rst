@@ -8,8 +8,8 @@ It is a bit different than markdown.
 * directives use ":"
 * it is quite annoying to get used to
 
-Some math:
-----------
+Some math
+---------
 
 .. math::
 
