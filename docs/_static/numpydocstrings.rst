@@ -36,5 +36,5 @@ conf.py:
 
 See also: `Google docstrings Example <https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html>`_
 
-The code in :py:mod:`alpha` and :py:mod:`beta` utilize this Docstring format
+The code in :py:mod:`~sphinxtest.alpha` and :py:mod:`~sphinxtest.beta` utilize this Docstring format
 and are automatically generated.
