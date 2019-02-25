@@ -18,11 +18,19 @@
 
 import os
 import sys
-sys.path.insert(0, os.path.abspath('..'))
+#Location of Sphinx files
+sys.path.insert(0, os.path.abspath('./../..'))
 
 import sphinx.apidoc
 def setup(app):
-    sphinx.apidoc.main(['-F, -f', '-T', '-e', '-o', './', './..'])
+    sphinx.apidoc.main(['-f', #Overwrite existing files
+                        '-T', #Create table of contents
+                        '-e', #Give modules their own pages
+                        '-o', #Output the files to:
+                        './', #Output Directory
+                        './../..' #Main Module directory
+                        ]
+    )
  
 # -- Project information -----------------------------------------------------
 
