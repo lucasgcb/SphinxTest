@@ -31,7 +31,12 @@ def setup(app):
                         './../' #Main Module directory
                         ]
     )
- 
+
+
+# If true, the current module name will be prepended to all description
+# unit titles (such as .. function::).
+add_module_names = False
+
 # -- Project information -----------------------------------------------------
 
 project = 'SphinxTest'
@@ -41,7 +46,7 @@ author = 'Lucas GC Bandeira'
 # The short X.Y version
 version = '1'
 # The full version, including alpha/beta/rc tags
-release = 'numpy'
+release = 'packagetest'
 
 
 # -- General configuration ---------------------------------------------------
