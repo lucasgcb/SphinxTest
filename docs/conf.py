@@ -19,7 +19,7 @@
 import os
 import sys
 #Location of Sphinx files
-sys.path.insert(0, os.path.abspath('./../..'))
+sys.path.insert(0, os.path.abspath('./../'))
 
 import sphinx.apidoc
 def setup(app):
@@ -28,7 +28,7 @@ def setup(app):
                         '-e', #Give modules their own pages
                         '-o', #Output the files to:
                         './', #Output Directory
-                        './../..' #Main Module directory
+                        './../' #Main Module directory
                         ]
     )
  
