@@ -15,10 +15,11 @@ Welcome to SphinxTest's documentation!
    _static/numpydocstrings
 
 .. toctree::
-   :maxdepth: 2
+   :glob:
+   :maxdepth: 1
    :caption: Module:
 
-   sphinxtest
+   _autogen/sphinxtest*
 
 Indices and tables
 ==================

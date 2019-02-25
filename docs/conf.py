@@ -27,7 +27,7 @@ def setup(app):
                         '-T', #Create table of contents
                         '-e', #Give modules their own pages
                         '-o', #Output the files to:
-                        './', #Output Directory
+                        './_autogen/', #Output Directory
                         './../' #Main Module directory
                         ]
     )
