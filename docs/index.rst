@@ -5,19 +5,20 @@
 
 Welcome to SphinxTest's documentation!
 ======================================
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Quick start:
-
-   _static/introduction
-   _static/aboutindex
-   _static/numpydocstrings
+.. currentmodule::
+   sphinxtest
 
 .. toctree::
    :glob:
-   :maxdepth: 1
-   :caption: Module:
+   :maxdepth: 2
+   :caption: Quick start:
+
+   _pages/*
+
+.. toctree::
+   :glob:
+   :maxdepth: 2
+   :caption: Modules:
 
    _autogen/sphinxtest*
 

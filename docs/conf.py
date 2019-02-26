@@ -20,15 +20,19 @@ import os
 import sys
 #Location of Sphinx files
 sys.path.insert(0, os.path.abspath('./../'))
+autodoc_mock_imports = ["alpha","beta"]
 
 import sphinx.apidoc
 def setup(app):
+    app.add_javascript('copybutton.js')
     sphinx.apidoc.main(['-f', #Overwrite existing files
                         '-T', #Create table of contents
                         '-e', #Give modules their own pages
+                        #'-E', #user docstring headers
+                        #'-M', #Modules first
                         '-o', #Output the files to:
                         './_autogen/', #Output Directory
-                        './../' #Main Module directory
+                        './../sphinxtest', #Main Module directory
                         ]
     )
 
@@ -59,6 +63,7 @@ release = 'packagetest'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+    'sphinx.ext.autosummary',
     'sphinx.ext.autodoc',
     'sphinx.ext.intersphinx',
     'sphinx.ext.todo',
@@ -92,7 +97,7 @@ language = None
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
+exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'sphinxtest.rst']
 
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = None
@@ -151,6 +156,7 @@ latex_elements = {
     # Latex figure (float) alignment
     #
     # 'figure_align': 'htbp',
+    'extraclassoptions': 'openany,oneside'
 }
 
 # Grouping the document tree into LaTeX files. List of tuples

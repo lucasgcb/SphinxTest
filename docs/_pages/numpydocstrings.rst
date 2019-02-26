@@ -10,10 +10,10 @@ reStructuredText inside of docstrings.
 Solution
 --------
 
-Google defined a non-gross docstring format that everyone accepts
+Numpy Project and Google defined a non-gross docstring formats that everyone accepts
 and Sphinx recognizes.
 
-* Sphinx needs an addon called "Napoleon" to interpret it.
+* Sphinx needs an addon called "Napoleon" to interpret them.
 * It is not a problem. This is defined in the doc's conf.py.
 
 `Numpy docstrings Example <https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_numpy.html>`_
@@ -36,5 +36,5 @@ conf.py:
 
 See also: `Google docstrings Example <https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html>`_
 
-The code in :py:mod:`sphinxtest.alpha` and :py:mod:`sphinxtest.beta` utilize this Docstring format
-and are automatically generated.
+The code in :py:mod:`sphinxtest.alpha` and :py:mod:`sphinxtest.beta`
+utilize this Docstring format and are automatically generated.
