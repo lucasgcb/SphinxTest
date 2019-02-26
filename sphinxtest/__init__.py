@@ -1,3 +1,5 @@
+"""Top level doctstring
+   ===================="""
 from . import alpha
 from . import beta
 from . import _lib

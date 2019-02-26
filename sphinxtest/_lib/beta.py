@@ -32,9 +32,10 @@ class Waldo:
             
         Example
         -------
-        >>> Waldo([2,3,5])
-        >>> Waldo.whereIsHe()
-        >>> [2,3,5]
+        >>> from sphinxtest.beta import Waldo
+        >>> w=Waldo([2,3,5])
+        >>> w.whereIsHe()
+        [2,3,5]
         """
 
         print(self.pos)
