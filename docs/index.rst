@@ -18,7 +18,7 @@ Welcome to SphinxTest's documentation!
 .. toctree::
    :glob:
    :maxdepth: 2
-   :caption: Modules:
+   :caption: Packages:
 
    _autogen/sphinxtest*
 
